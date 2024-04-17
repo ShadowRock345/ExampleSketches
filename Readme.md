@@ -73,7 +73,7 @@ void setup() {
 
 ## Lizenz
 
-Diese Bibliothek ist unter der MIT-Lizenz lizenziert. 
+Diese Beispiele sind unter der MIT-Lizenz lizenziert. 
 
 
  * MQTTManager - Bibliothek zur Verwaltung von MQTT-Verbindungen
