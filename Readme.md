@@ -35,7 +35,7 @@ Diese Bibliothek ist unter der MIT-Lizenz lizenziert.
 
 
  * MQTTManager - Bibliothek zur Verwaltung von MQTT-Verbindungen
- * Erstellt von [P_Seminar], [16.04.2024]
+ * Erstellt von [P_Seminar], [17.04.2024]
  * Copyright (c) [2024] [P_Seminar]
  * Freigegeben unter der MIT-Lizenz. All rights reserved.
 
