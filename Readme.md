@@ -29,6 +29,19 @@ Example_Sketch_with_custom_callback.zip
 Example_Sketch_with_custom_callback.ino
 ```
 
+Die Custom Callback-Method muss immer wie folgt aussehen:
+```cpp
+void customCallback(char* topic, byte* payload, unsigned int length) {
+  //custom callback 
+}
+
+....
+//und so registriert werden:
+void setup() {
+  mqttManager.setCallback(customCallback);
+}
+```
+
 ## Lizenz
 
 Diese Bibliothek ist unter der MIT-Lizenz lizenziert. 
