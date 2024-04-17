@@ -6,6 +6,8 @@
 2. MQTT-Broker
 3. Installierte MQTTManager Bibliothek. [Anleitung](https://github.com/ShadowRock345/MQTTManager/)
 
+\_Die Beispiele sind auch verfügbar unter\_: Arduino-IDE -> File -> MQTTManager
+
 ## Beispiel-Skript mit NeoPixel-Streifen
 
 Dieses Beispiel zeigt die Verwendung der MQTTManager-Bibliothek in Verbindung mit einem NeoPixel-Streifen für Beleuchtungseffekte. Online abrufen: [hier](https://create.arduino.cc/editor/jonasworthofbeeinghere/dc94994d-9c2e-44bc-b27d-ab76443003c1/preview)
