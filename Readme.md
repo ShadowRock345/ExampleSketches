@@ -53,17 +53,17 @@ void setup() {
 
 ## Code-Erklärung
 
-    * **Bibliotheken**: Die erforderlichen Bibliotheken werden eingebunden. 
+  * **Bibliotheken**: Die erforderlichen Bibliotheken werden eingebunden. 
     
-    * **Variableninitialisierungv: Die erforderlichen Variablen für das Wi-Fi-Netzwerk (ssid, password), den MQTT-Broker (mqtt_broker, mqtt_username, mqtt_password, mqtt_port), das Thema (topic), den Gerätenamen (name) und den Debug-Modus (debug) werden initialisiert.
+  * **Variableninitialisierungv: Die erforderlichen Variablen für das Wi-Fi-Netzwerk (ssid, password), den MQTT-Broker (mqtt_broker, mqtt_username, mqtt_password, mqtt_port), das Thema (topic), den Gerätenamen (name) und den Debug-Modus (debug) werden initialisiert.
 
-    * **MQTTManager-Objekt**: Ein Objekt der Klasse MQTTManager wird erstellt und mit den initialisierten Variablen konfiguriert.
+  * **MQTTManager-Objekt**: Ein Objekt der Klasse MQTTManager wird erstellt und mit den initialisierten Variablen konfiguriert.
 
-    * **Setup**: Die setup()-Funktion initialisiert die serielle Kommunikation und verbindet das MQTT-Manager-Objekt mit dem Broker. .
+  * **Setup**: Die setup()-Funktion initialisiert die serielle Kommunikation und verbindet das MQTT-Manager-Objekt mit dem Broker. .
 
-    * **Loop**: Die loop()-Funktion wird kontinuierlich ausgeführt. Sie ruft die loop()-Methode des MQTT-Manager-Objekts auf, um eingehende Nachrichten zu verarbeiten und um die Verbindung zum Broker aufrecht zu erhalten, und die loop()-Funktion sendet eine Testnachricht an das Thema "test".
+  * **Loop**: Die loop()-Funktion wird kontinuierlich ausgeführt. Sie ruft die loop()-Methode des MQTT-Manager-Objekts auf, um eingehende Nachrichten zu verarbeiten und um die Verbindung zum Broker aufrecht zu erhalten, und die loop()-Funktion sendet eine Testnachricht an das Thema "test".
 
-    * Je nach Sketch, wird noch die Neopixel Bibliothek benutzt oder ein Custom Callback definiert, der dabei hilft, wie Nachrichten, die eingehen, zu verarbeiten. (Da die Bibliothek eingehende Nachrichten einfach nur printet)
+  * Je nach Sketch, wird noch die Neopixel Bibliothek benutzt oder ein Custom Callback definiert, der dabei hilft, wie Nachrichten, die eingehen, zu verarbeiten. (Da die Bibliothek eingehende Nachrichten einfach nur printet)
 
 ## Lizenz
 
