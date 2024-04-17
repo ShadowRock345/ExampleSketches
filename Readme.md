@@ -61,7 +61,7 @@ void setup() {
 
   * **Bibliotheken**: Die erforderlichen Bibliotheken werden eingebunden. 
     
-  * **Variableninitialisierungv: Die erforderlichen Variablen für das Wi-Fi-Netzwerk (ssid, password), den MQTT-Broker (mqtt_broker, mqtt_username, mqtt_password, mqtt_port), das Thema (topic), den Gerätenamen (name) und den Debug-Modus (debug, wenn der debug Modus aktiviert ist, prüft die Bibliothek zusätzlich die Version der Bibliothek) werden initialisiert.
+  * **Variableninitialisierung**: Die erforderlichen Variablen für das Wi-Fi-Netzwerk (ssid, password), den MQTT-Broker (mqtt_broker, mqtt_username, mqtt_password, mqtt_port), das Thema (topic), den Gerätenamen (name) und den Debug-Modus (debug, wenn der debug Modus aktiviert ist, prüft die Bibliothek zusätzlich die Version der Bibliothek) werden initialisiert.
 
   * **MQTTManager-Objekt**: Ein Objekt der Klasse MQTTManager wird erstellt und mit den initialisierten Variablen konfiguriert.
 
