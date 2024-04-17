@@ -8,7 +8,7 @@
 
 ##
 
-<ins>Die Beispiele sind auch verfügbar unter</ins>:  Arduino-IDE -> File -> Examples/Beispiele -> MQTTManager
+<ins>Die Beispiele sind auch verfügbar unter</ins>:  Arduino-IDE -> File/Datei -> Examples/Beispiele -> MQTTManager
 
 ##
 
