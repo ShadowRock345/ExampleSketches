@@ -19,7 +19,7 @@ Example_Sketch_without_strip.zip
 Example_Sketch_without_strip.ino
 ```
 
-# Beispiel-Skript mit benutzerdefiniertem Callback
+## Beispiel-Skript mit benutzerdefiniertem Callback
 
 Dieses Beispiel zeigt die Verwendung eines benutzerdefinierten Callbacks für die Verarbeitung eingehender MQTT-Nachrichten. Online abrufen: [hier](https://create.arduino.cc/editor/jonasworthofbeeinghere/24f62ede-c5ff-4e62-a0d0-8d07cbcac979/preview)
 
