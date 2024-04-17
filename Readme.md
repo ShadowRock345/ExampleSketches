@@ -53,7 +53,9 @@ void customCallback(char* topic, byte* payload, unsigned int length) {
 //und so registriert werden:
 
 void setup() {
+  ....
   mqttManager.setCallback(customCallback);
+  ....
 }
 ```
 
