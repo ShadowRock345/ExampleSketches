@@ -44,6 +44,8 @@ Example_Sketch_with_custom_callback.ino
 
 Die Custom Callback-Method muss dabei immer wie folgt aussehen (der Name ist dabei nicht weiter wichtig):
 ```cpp
+....
+
 void customCallback(char* topic, byte* payload, unsigned int length) {
   //custom callback 
 }
